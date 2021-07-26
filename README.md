@@ -1,16 +1,14 @@
-# tetris_flutter
+# flutter-tetris
+A very basic version of tetris built it for fun in a few hours. probably has bugs.
 
-A new Flutter project.
+run using 
+flutter run -d chrome
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+I wanted to learn dart with a project and as I enjoy playing tetris a lot I decided to build it using flutter and dart without using any game engines.
 
-A few resources to get you started if this is your first Flutter project:
+It uses drawrect as the main way to draw the field. you will notice so many shortcuts and tricks to make it look and function as tetris (built it in a few hours so I didn't have time to fully leaern what flutter and dart have to offer).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+It has been a fun experience and I enjoyed learning a bit about dart. I might never come back to this project but probablty will find new things to do using flutter. This is the only way for me to learn which is by building crappy projects.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Feel free to use this code if you like (Even though I don't reveommend it, it is not that great.)/

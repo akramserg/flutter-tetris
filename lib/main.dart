@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     _tetrisPainter = TetrisPainter(repaint: _repaint);
     tetrisManager.tick();
-    Timer.periodic(Duration(milliseconds: 500), (Timer timer) {
+    Timer.periodic(Duration(milliseconds: 300), (Timer timer) {
       _repaint.value++;
       if (tetrisManager.play) tetrisManager.tick();
       // print(_repaint.value);
