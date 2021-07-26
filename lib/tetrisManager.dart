@@ -83,6 +83,7 @@ class TetrisManager {
         growable: false); // [column][rows]  -   [y][x]
 
     this.currnetBlock = null;
+    this.play = true;
   }
 
   tick() {
@@ -141,7 +142,7 @@ class TetrisManager {
 
   checkCompletedRow() {
     var completedRows = [];
-    for (int y = canvas.length - 4; y < canvas.length; y++) {
+    for (int y = 1; y < canvas.length; y++) {
       var completeRow = true;
       for (int x = 0; x < canvas[0].length; x++) {
         if (canvas[y][x] == 0) completeRow = false;
@@ -149,7 +150,7 @@ class TetrisManager {
       if (completeRow) completedRows.add(y);
     }
 
-    for (int y = canvas.length - 5; y < canvas.length; y++) {
+    for (int y = 1; y < canvas.length; y++) {
       if (completedRows.contains(y)) {
         removeRow(y);
       }
