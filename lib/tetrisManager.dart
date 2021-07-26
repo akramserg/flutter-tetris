@@ -57,6 +57,7 @@ class TetrisManager {
     Colors.brown[200] ,//Z
     Colors.yellow[900], //Z
     Colors.orange, //B
+    Colors.blue, //t
   ];
 
   int x = 0;
